@@ -63,8 +63,3 @@ def pesoProductos():
     else:
         print("✅✅✅ EL SACO CUMPLE CON EL PESO MINIMO DE 46 KG ✅✅✅")
 
-inventarioPulperia()
-promocionTienda()
-metaVentas()
-entregaComedor()
-pesoProductos()
