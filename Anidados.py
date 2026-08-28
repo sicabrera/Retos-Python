@@ -160,8 +160,3 @@ def ventaFerreteria():
             print("❌ Tipo de cliente no válido.")
 
 
-creditoInterno()
-servicioEntrega()
-clasificacionCafe()
-reservaHospedaje()
-ventaFerreteria()

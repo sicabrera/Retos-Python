@@ -4,6 +4,11 @@ from Simples import promocionTienda
 from Simples import metaVentas
 from Simples import entregaComedor
 from Simples import pesoProductos
+from Anidados import creditoInterno
+from Anidados import servicioEntrega
+from Anidados import clasificacionCafe
+from Anidados import reservaHospedaje
+from Anidados import ventaFerreteria
 
 
 def main():
@@ -15,25 +20,41 @@ def main():
     print("3..............Meta de ventas")
     print("4..............Entrega de un comedor")
     print("5..............Peso de productos")
-    print("6..............Terminar")
+    print("6..............Credito interno")
+    print("7..............Servicio de Entrega")
+    print("8..............Clasificacion Cafe")
+    print("9..............Reserva de Hospedaje")
+    print("10.............Venta Ferreteria")
+    print("11.............Terminar")
     print("-"*50)
     opc = int(input("Seleccione la tarea a ejecutarse: "))
 
+
     match opc: 
         case 1: 
-            return inventarioPulperia()
+            inventarioPulperia()
         case 2: 
-            return promocionTienda()
+            promocionTienda()
         case 3: 
-            return metaVentas()
+            metaVentas()
         case 4: 
             entregaComedor()
         case 5: 
             pesoProductos()
-        case 6: 
-            return print("Saliendo...")
+        case 6:
+            creditoInterno()
+        case 7: 
+            servicioEntrega()
+        case 8:
+            clasificacionCafe()
+        case 9:
+            reservaHospedaje()
+        case 10:
+            ventaFerreteria()
+        case 11: 
+            print("Saliendo...")
         case _:
-            return print("Opcion invalida")
+            print("Opcion invalida")
     
 main()
 
