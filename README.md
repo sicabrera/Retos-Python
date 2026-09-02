@@ -1,0 +1,1 @@
+Para correr los ejercicios de bifurcaciones o If se necesita correr el archivo Principal.py que se encuentran directamente en la carpeta del repositorio, para acceder a los ejercicios de bucles o excepciones se necesita ingresar a sus respectivas carpetas y correr su archivo Principal.py
